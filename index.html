@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Commuter Squad</title>
-    <meta charset="utf-8"/>
-    <meta name="viewpoint" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
-  </head>
-  <body>
-    <h1>Sign up to join the Commuter Squad!</h1>
-    <form method="get">
-      <label>Name: <input name='submitted-name'></label>
-      <label>Major: <input name='submitted-major'></label>
-      <label>Email: <input name='submitted-email'></label>
-      <button>SIGN UP!</button>
-    </form>
-  </body>
+<head>
+  <title>Commuter Squad</title>
+  <meta charset="utf-8" />
+  <meta name="viewpoint" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel='stylesheet' type="text/css" href="css/reset.css">
+  <link rel='stylesheet' type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <h1>Sign up to join the Commuter Squad!</h1>
+  <form method="get">
+    <div class ="outer-box">
+      <ol>
+        <li class="data-input">
+          <label>Name </label> 
+          <input type="text" name='submitted-name'>
+        </li>
+        <li class="data-input"> 
+          <label>Major</label>
+          <input type="text" name='submitted-major'>
+        </li>
+        <li class="data-input">
+          <label>Email</label>
+          <input type="email" name='submitted-email'>
+        </li>
+        <div id='submit'>
+          <button>SIGN UP!</button>
+        </div>
+      </ol>
+      
+    </div>
+  </form>
+</body>
+
 </html>
