@@ -47,5 +47,13 @@ button{
   color: white;
   margin: 20px auto;
   display: block;
-  
+}
+
+.block{
+  float:left;
+  width: 33.3%;
+  padding: 10%;
+  box-sizing: border-box;
+  position: relative;
+  top: 100px; 
 }
