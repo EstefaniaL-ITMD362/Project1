@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hasjs">
 
 <head>
   <title>Commuter Squad</title>
@@ -7,16 +7,17 @@
   <meta name="viewpoint" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel='stylesheet' type="text/css" href="css/reset.css">
   <link rel='stylesheet' type="text/css" href="css/style.css">
+  <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
   <h1>Sign up to join the Commuter Squad!</h1>
-  <form method="get">
+  <form method="POST" action="welcome.html" id="my-form">
     <div class ="outer-box">
       <ol>
         <li class="data-input">
           <label>Name </label> 
-          <input type="text" name='submitted-name' required>
+          <input id="submitted-name" type="text" name='submitted-name' required>
         </li>
         <li class="data-input"> 
           <label>Major</label>
@@ -27,9 +28,10 @@
           <input type="email" name='submitted-email' required>
         </li>
         <div id='submit'>
-          <button>SIGN UP!</button>
+          <input type="submit" >
         </div>
       </ol>
+    </form>
       <div class="block">
         <image src="Media/car1.png">
       </div>
@@ -40,9 +42,9 @@
         <image src="Media/car3.png">
       </div>
     </div>
-  </form>
+ 
 
-  <script src="main.js"></script>
+
 </body>
 
 </html>
