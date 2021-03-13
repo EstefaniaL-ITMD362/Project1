@@ -1,8 +1,10 @@
 
-let inputs = document.getElementById("my-form").elements;
-let dis_name=inputs['submitted-name'];
-let major=nputs['submitted-major'];
-let email=nputs['submitted-email'];
+function submit () {
+  console.log("in");
+  const name = document.getElementById('submitted-name').value;
+  sessionStorage.setItem("NAME", name);
+  return;
+}
 
-console.log(dis_name.value);
-document.getElementById("rep").innerHTML = window.getElementById("submitted-name").value;
+
+
