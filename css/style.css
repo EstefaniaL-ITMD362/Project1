@@ -78,7 +78,7 @@ input[type='submit']{
 
 @media (min-width:320px) {
   h1{
-    margin-top: 10px;
+    margin-top: 10%;
   }
   .outer-box{
     border-radius: 4px;
