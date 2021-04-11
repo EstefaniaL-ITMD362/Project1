@@ -7,7 +7,7 @@
   <meta name="viewpoint" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel='stylesheet' type="text/css" href="css/reset.css">
   <link rel='stylesheet' type="text/css" href="css/style.css">
-  <script  defer src="main.js"></script>
+  <script  src="main.js"></script>
 </head>
 
 <body>
@@ -22,6 +22,10 @@
         <li class="data-input"> 
           <label>Major</label>
           <input type="text" name='submitted-major' required>
+        </li>
+        <li class="data-input">
+          <label>Phone Number</label>
+          <input type="tel" name="number" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
         </li>
         <li class="data-input">
           <label>Email</label>

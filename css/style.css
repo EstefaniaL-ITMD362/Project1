@@ -24,7 +24,7 @@ h1{
   border: 5px black solid;
   margin: auto;
   width: 50%;
-  height: 40vh;
+  height: 40%;
   position: relative;
 }
 
@@ -40,7 +40,7 @@ label {
   
 }
 
-input[type='email'], [type='text']{
+input[type='email'], [type='text'] , [type='tel']{
   background-color: rgb(230, 229, 218);
 }
 
@@ -58,7 +58,7 @@ input[type='submit']{
   padding: 10%;
   box-sizing: border-box;
   position: relative;
-  top: 100px; 
+  /* top: 100px; */
 }
 
 
