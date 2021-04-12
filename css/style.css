@@ -119,4 +119,11 @@ input[type='submit']{
     position: relative;
     margin-top: 30%;
   }
+  .data-input{
+    font-family: 'Righteous', cursive;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
 }
