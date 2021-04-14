@@ -88,6 +88,10 @@ input[type='submit'] {
     width: 50%;
     height: 40%;
   }
+  
+}
+
+@media screen and (min-width: 480px){
   .block2 {
     position: relative;
     float: left;
@@ -97,9 +101,5 @@ input[type='submit'] {
     padding-top: 1%;
     padding-left: 15%;
   }
-}
-
-@media screen and (min-width: 480px){
- 
 
 }
