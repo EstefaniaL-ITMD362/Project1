@@ -15,6 +15,12 @@ h1 {
   /*font-family: 'Ribeye Marrow', cursive; */
   /*font-family: 'Righteous', cursive;*/
 }
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: large;
+  margin: 10px;
+}
 
 .outer-box {
   position: relative;
