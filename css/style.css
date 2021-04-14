@@ -102,6 +102,6 @@ input[type='submit'] {
     padding-left: 15%;
   }
   img {
-    max-width: 100%;
+    max-width: 50%;
   }
 }
