@@ -89,3 +89,12 @@ input[type='submit'] {
     height: 40%;
   }
 }
+
+@media screen and (min-width: 480px){
+  body {
+    background: linear-gradient(217deg, rgba(117, 233, 23, 0.897), 
+    rgba(7, 38, 105, 0) 70.71%), linear-gradient(127deg, rgb(8, 228, 199),
+     rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgb(13, 188, 241),
+      rgba(0, 0, 255, 0) 70.71%);
+  }
+}
