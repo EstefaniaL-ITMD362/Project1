@@ -19,7 +19,7 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-size: large;
-  margin: auto;
+  margin: 10px;
 }
 
 .outer-box {
@@ -113,9 +113,6 @@ input[type='submit'] {
     box-sizing: border-box;
     padding-top: 1%;
     padding-left: 15%;
-  }
-  img {
-    max-width: 50%;
   }
   p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
