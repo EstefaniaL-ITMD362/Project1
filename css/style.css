@@ -99,14 +99,7 @@ input[type='submit'] {
     /*font-family: 'Ribeye Marrow', cursive; */
     /*font-family: 'Righteous', cursive;*/
   }
-  .block {
-    float: left;
-    width: 33.3%;
-    padding: 10%;
-    box-sizing: border-box;
-    position: relative;
-    /* top: 100px; */
-  }
+  
   .center {
     text-align: left;
   }
